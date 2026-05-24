@@ -33,7 +33,7 @@ namespace CyberSecurityBot
             return Sentiment.Neutral;
         }
 
-        public string GetSentimentResponse(Sentiment s)
+        public string GetSentimentResponse(Sentiment s) 
         {
             return s switch
             {

@@ -20,7 +20,7 @@
 
         public string GetPersonalisedOpener()
         {
-            if (!string.IsNullOrEmpty(FavouriteTopic))
+            if (!string.IsNullOrEmpty(FavouriteTopic)) 
             {
                 return $"As someone interested in {FavouriteTopic}, you should know: ";
             }
