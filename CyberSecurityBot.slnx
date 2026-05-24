@@ -1,3 +1,6 @@
 <Solution>
-  <Project Path="CyberSecurityBot/CyberSecurityBot.csproj" Id="9a5762f7-dc8c-4aad-9e19-0b93c3a7c9cd" />
+  <Project Path="CyberSecurityBot/CyberSecurityBot.csproj" Id="9a5762f7-dc8c-4aad-9e19-0b93c3a7c9cd">
+    <Build Solution="Debug|*" Project="false" />
+  </Project>
+  <Project Path="CybersecurityChatbotWPF/CybersecurityChatbotWPF.csproj" Id="5e49171d-51e9-429f-aa58-c52023ed4a3d" />
 </Solution>

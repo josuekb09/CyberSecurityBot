@@ -6,7 +6,7 @@ namespace CyberSecurityBot
     {
         static void Main(string[] args)
         {
-            // Fix console encoding for emojis
+            
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
             // 1. Initialize our custom classes
