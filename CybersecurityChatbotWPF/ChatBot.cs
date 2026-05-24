@@ -22,7 +22,7 @@ namespace CyberSecurityBot
             return "🛡️ Welcome to the Cybersecurity Awareness Assistant! 🛡️\n\nBefore we begin learning about online safety, what is your name?";
         }
 
-        public string ProcessInput(string input)
+        public string ProcessInput(string input) 
         {
             string cleanInput = input?.Trim() ?? "";
             if (string.IsNullOrEmpty(cleanInput))
