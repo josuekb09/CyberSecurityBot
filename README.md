@@ -1,32 +1,168 @@
-# Cybersecurity Awareness Bot
+# Cybersecurity Awareness Assistant
 
 **Student Name:** Kabuya Tambwe Josue
 **Student Number:** ST10468057
 
-A fully functional WPF GUI-based chatbot developed in C# and .NET 8.0 that educates users on online safety.
+## Project Overview
 
-## Implemented Features (Part 2)
-- **WPF Terminal Interface:** A customized dark-themed layout with custom navy and cyan styling properties.
-- **Voice Greeting & ASCII Art:** Reusable audio greeting track and synchronous ASCII banner display on initialization.
-- **Keyword Recognition Engine:** Handles dynamic security token processing using optimal dictionary lookups for keywords like password, phishing, privacy, scam, and browsing.
-- **Advanced User Memory Store:** Remembers user identities and topics of interest systematically throughout the chat flow.
-- **Sentiment Classification Engine:** Catches worried, curious, or frustrated tones and fires empathetic responses with auto-chained technical tips.
-- **Context Continuations:** Preserves tracking states to handle chained prompts like 'tell me more' seamlessly[cite: 1, 2].
+The **Cybersecurity Awareness Assistant** is a WPF GUI-based chatbot application developed in **C#** and **.NET 8.0**.
+The application is designed to educate users about online safety and cybersecurity awareness through an interactive assistant, task management, reminders, quizzes, and activity tracking.
+
+This project was developed as part of the POE cybersecurity chatbot submission and has been upgraded from a simple chatbot into a full desktop application with multiple cybersecurity learning features.
+
+---
+
+## Final POE Part 3 Features
+
+### 1. Cybersecurity Chatbot
+
+The chatbot allows users to ask questions about cybersecurity topics such as:
+
+* Password safety
+* Phishing
+* Privacy
+* Scams
+* Safe browsing
+* Online threats
+* General cybersecurity awareness
+
+The chatbot uses keyword recognition, memory, and basic NLP-style logic to provide useful and relevant responses.
+
+---
+
+### 2. User Memory
+
+The assistant can remember user details and topics of interest during the conversation.
+This helps the chatbot provide more personalized cybersecurity tips and follow-up responses.
+
+---
+
+### 3. Sentiment Detection
+
+The chatbot can detect simple user emotions such as worry, curiosity, or frustration.
+When the user sounds concerned, the assistant responds in a more supportive and helpful way.
+
+---
+
+### 4. Task Management and Reminders
+
+The application includes a **Tasks and Reminders** section where users can create cybersecurity-related tasks.
+
+Examples include:
+
+* Enable two-factor authentication
+* Update passwords
+* Review privacy settings
+* Check suspicious emails
+* Run security checks
+
+Tasks and reminders are saved so users can track their cybersecurity responsibilities.
+
+---
+
+### 5. Cybersecurity Quiz
+
+The application includes a **Cyber Quiz** feature that tests the user’s cybersecurity knowledge.
+
+The quiz helps users learn about:
+
+* Phishing awareness
+* Strong passwords
+* Safe internet behavior
+* Scam detection
+* Privacy protection
+
+The quiz gives feedback to help users understand the correct answers.
+
+---
+
+### 6. Activity Log
+
+The application tracks important user actions inside an **Activity Log**.
+This allows users to see what they have done in the application, such as creating tasks, completing reminders, or using quiz features.
+
+---
+
+### 7. Modern WPF Interface
+
+The application uses a clean dark-themed WPF interface with multiple tabs:
+
+* Chat
+* Tasks and Reminders
+* Cyber Quiz
+* Activity Log
+
+The interface was designed to be simple, professional, and easy to use.
+
+---
+
+## Technologies Used
+
+* C#
+* .NET 8.0
+* WPF
+* XAML
+* Visual Studio 2022
+* GitHub
+* GitHub Actions / Continuous Integration
+
+---
 
 ## Prerequisites
-- Visual Studio 2022
-- .NET 8.0 Runtime
-- Windows OS
+
+Before running the application, make sure you have:
+
+* Windows OS
+* Visual Studio 2022
+* .NET 8.0 SDK or Runtime
+
+---
 
 ## How to Run the Application
-1. Clone the repository to your local machine.
-2. Open the solution file `CyberSecurityBot.slnx` or `.sln` in Visual Studio 2022.
-3. Ensure the `greeting.wav` file property is set to 'Copy always'.
-4. Press `F5` or click the "Start" button to compile and run.
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/josuekb09/CyberSecurityBot.git
+```
+
+2. Open the project in **Visual Studio 2022**.
+
+3. Open the solution file:
+
+```bash
+CyberSecurityBot.slnx
+```
+
+4. Make sure the WPF project is selected as the startup project.
+
+5. Build the solution.
+
+6. Press **F5** or click **Start** to run the application.
+
+---
 
 ## Video Presentation Walkthrough
-Watch the full application demonstration walkthrough video here:
-https://youtu.be/zZqXzUhyUxY
 
-## Continuous Integration (CI) Status
+Watch the full POE Part 3 application demonstration here:
+
+https://youtu.be/oHD4PXQ9PY4
+
+---
+
+## Continuous Integration Status
+
 ![CI Success](CyberSecurityBot/ci-success.png)
+
+---
+
+## Project Purpose
+
+The purpose of this project is to help users become more aware of cybersecurity risks and develop safer online habits.
+The application combines education, reminders, quizzes, and interactive guidance to make cybersecurity learning more practical and engaging.
+
+---
+
+## Author
+
+Developed by **Kabuya Tambwe Josue**.
